@@ -52,6 +52,8 @@ var Server = http.createServer(function(req,res) {
     });
 });
 
+//listening through 3030 in httpPort
+
 Server.listen(3030,function() {
     console.log("Srever is up and running in port 550");
 })
